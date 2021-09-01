@@ -28,3 +28,15 @@ Route::get('/work-with-us', function () {
     return view('work-with-us');
 });
 
+Route::get('/contacts', function () {
+    return view('contacts');
+});
+
+Route::get('/offers', function () {
+    return view('offers');
+});
+Route::get('/shops', function () {
+    return view('shops');
+});
+
+

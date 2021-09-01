@@ -8,6 +8,18 @@
 </head>
 <body>
     <h3>Hello World, I am using {{$name}} !</h3>
+    <div class="container">
+        <nav>
+        <ul>
+        <li><a href="/about-us">About us</a></li>
+        <li><a href="/work-with-us">Jobs</a></li>
+        <li><a href="/contacts">Contatti</a></li>
+        <li><a href="/offers">Offerte</a></li>
+        <li><a href="/shops">Nostri Negozi</a></li>
+        </ul>
+       </nav>
+    
+    </div>
     
 </body>
 </html>
