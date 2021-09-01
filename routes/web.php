@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home',
+       ['name'=>'Laravel']
+);
 });
+Route::get('/about-us', function () {
+    return view('about-us',
+    ['src'=> 'https://www.laramind.com/blog/wp-content/uploads/2020/09/laravel-logo.jpg']
+       
+);
+});
+Route::get('/work-with-us', function () {
+    return view('work-with-us');
+});
+
